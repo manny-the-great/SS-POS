@@ -72,7 +72,7 @@ export default function HomePage() {
   const filtered = tab === 'All' ? PRODUCTS : PRODUCTS.filter(p => p.tag === tab);
 
   return (
-    <div className="flex flex-col pt-16">
+    <div className="flex flex-col">
       {/* HERO */}
       <section className="relative grad-hero overflow-hidden min-h-[88vh] flex items-center">
         <div className="absolute inset-0 pointer-events-none">
@@ -80,7 +80,7 @@ export default function HomePage() {
           <div className="absolute bottom-0 right-0 w-80 h-80 bg-[#FACC15]/5 rounded-full blur-3xl translate-x-1/3 translate-y-1/3" />
           <div className="absolute top-1/4 left-0 w-48 h-48 bg-[#16A34A]/5 rounded-full blur-2xl -translate-x-1/2" />
         </div>
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 lg:py-28 w-full relative z-10">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-32 pb-20 lg:pt-36 lg:pb-28 w-full relative z-10">
           <div className="grid lg:grid-cols-2 gap-14 items-center">
             {/* LEFT */}
             <div className="text-center lg:text-left">
