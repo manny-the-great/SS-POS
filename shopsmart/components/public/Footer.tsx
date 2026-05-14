@@ -1,10 +1,7 @@
 'use client';
 
 import Link from 'next/link';
-import {
-  Facebook, Twitter, Instagram, Youtube,
-  MapPin, Mail, Phone, ArrowRight
-} from 'lucide-react';
+import { Globe, MessageCircle, Camera, Play, MapPin, Mail, Phone, ArrowRight } from 'lucide-react';
 
 const FOOTER_LINKS = {
   Platform: [
@@ -34,10 +31,10 @@ const FOOTER_LINKS = {
 };
 
 const SOCIALS = [
-  { icon: Facebook, href: '#', label: 'Facebook' },
-  { icon: Twitter, href: '#', label: 'Twitter' },
-  { icon: Instagram, href: '#', label: 'Instagram' },
-  { icon: Youtube, href: '#', label: 'YouTube' },
+  { icon: Globe, href: '#', label: 'Facebook' },
+  { icon: MessageCircle, href: '#', label: 'Twitter' },
+  { icon: Camera, href: '#', label: 'Instagram' },
+  { icon: Play, href: '#', label: 'YouTube' },
 ];
 
 export default function Footer() {
