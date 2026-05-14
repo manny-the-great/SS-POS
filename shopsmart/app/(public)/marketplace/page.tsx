@@ -72,7 +72,7 @@ export default function MarketplacePage() {
           <p className="text-white/55 mb-8 max-w-xl mx-auto">Discover fresh products from hundreds of local vendors near you.</p>
           <div className="max-w-lg mx-auto relative">
             <Search className="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5 text-gray-400"/>
-            <input value={q} onChange={e=>setQ(e.target.value)} placeholder="Search products, vendors..." className="input pl-11 pr-4 h-12 rounded-2xl w-full shadow-lg"/>
+            <input value={q} onChange={e=>setQ(e.target.value)} placeholder="Search products, vendors..." className="input !pl-12 !pr-4 h-12 rounded-2xl w-full shadow-lg"/>
           </div>
         </div>
       </div>

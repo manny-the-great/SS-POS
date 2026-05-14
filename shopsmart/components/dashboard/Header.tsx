@@ -36,7 +36,7 @@ export default function DashboardHeader({ onMenuClick, title }: HeaderProps) {
           <input
             type="search"
             placeholder="Search anything..."
-            className="input pl-9 h-10 text-sm rounded-xl bg-gray-50 border-gray-200 w-full"
+            className="input !pl-10 h-10 text-sm rounded-xl bg-gray-50 border-gray-200 w-full"
           />
         </div>
       </div>
