@@ -64,9 +64,9 @@ export default function MarketplacePage() {
   const filtered=ALL_PRODUCTS.filter(p=>(cat==='All'||p.cat===cat)&&p.name.toLowerCase().includes(q.toLowerCase()));
 
   return (
-    <div className="pt-20 pb-16">
+    <div className="pb-16">
       {/* Header */}
-      <div className="bg-gradient-to-br from-[#0d1f12] to-[#0F1923] py-14">
+      <div className="bg-gradient-to-br from-[#0d1f12] to-[#0F1923] pt-32 pb-14">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-3xl sm:text-5xl font-black text-white mb-3" style={{fontFamily:'var(--font-heading)'}}>ShopSmart Marketplace</h1>
           <p className="text-white/55 mb-8 max-w-xl mx-auto">Discover fresh products from hundreds of local vendors near you.</p>
